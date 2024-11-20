@@ -12,6 +12,5 @@ public class TextMessagePlayer extends MessagePlayer {
 
     public void play(final TextMessage message) {
         this.write(String.format("Printing text message: %s\n", message.getContent()).getBytes());
-
     }
 }
